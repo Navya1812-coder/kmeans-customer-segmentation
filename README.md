@@ -1,6 +1,19 @@
-# Customer Segmentation using K-Means
+## Project Overview
+This project performs customer segmentation using K-Means clustering.
 
-This project uses K-Means clustering to segment mall customers
-based on their annual income and spending score.
+## Dataset
+Mall Customer Dataset from Kaggle.
+Features used: Annual Income and Spending Score.
 
-Dataset source: Kaggle (Mall Customer Dataset)
+## Methodology
+- Data loading
+- Feature selection
+- Data scaling using StandardScaler
+- Elbow method to choose optimal clusters
+- K-Means clustering
+
+## Results
+Customers were grouped into 5 distinct segments based on income and spending behavior.
+
+## Conclusion
+The segmentation helps businesses identify different customer types for targeted marketing.
